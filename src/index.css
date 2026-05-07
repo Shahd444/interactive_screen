@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap");
+
+:root {
+  --color-bg: #ffffff;
+  --color-ink: #1e1e1e;
+  --color-brand: #b01c2a;
+  --color-brand-dark: #8f1521;
+  --color-hex-dark: #3f3f3f;
+  --color-hex-outline: #2b2b2b;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 56px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 22px;
+  --font-base: "Cairo", "Segoe UI", Tahoma, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-base);
+  background: var(--color-bg);
+  color: var(--color-ink);
+  overflow: hidden;
+}
+
+button {
+  font-family: inherit;
+}
